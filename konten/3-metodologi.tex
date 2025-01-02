@@ -1,24 +1,18 @@
-\chapter{METODOLOGI}
+\chapter{KESIMPULAN DAN SARAN}
 
-% Ubah konten-konten berikut sesuai dengan isi dari metodologi
 
-\section{Metode yang digunakan}
+\section{Kesimpulan}
 
-\lipsum[11]
+Berdasarkan hasil pengembangan dan implementasi sistem, dapat disimpulkan bahwa sistem backend yang dibuat untuk aplikasi PraktikaApp, PraktikaSSO, dan PraktikaTelelab berjalan dengan baik. Sistem ini telah berhasil di-deploy secara lokal dan dilengkapi dengan berbagai fitur keamanan yang mendukung, seperti \emph{OpenID Auth} untuk otentikasi pengguna. Selain itu, sistem backend ini dibangun dengan pendekatan \emph{microservice}, yang memungkinkan pengelolaan dan pengembangan aplikasi secara modular dan terpisah sesuai dengan fungsinya.
 
-% Contoh input gambar dengan format *.jpg
-\begin{figure} [H] \centering
-  % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.45]{gambar/blueprint.jpg}
-  % Keterangan gambar yang diinputkan
-  \caption{\emph{Blueprint} roket yang akan diuji coba \parencite{SpaceXBlueprint}}
-  % Label referensi dari gambar yang diinputkan
-  \label{fig:Blueprint}
-\end{figure}
+Selain itu, untuk memastikan kemudahan deployment dan skalabilitas, aplikasi ini dibungkus menggunakan Docker dan Kubernetes. Dengan demikian, sistem dapat dengan mudah di-deploy pada berbagai lingkungan dan mendukung proses pengelolaan kontainer yang efisien. Fitur keamanan lain yang diterapkan adalah Cross-Origin Resource Sharing (\emph{CORS}), yang memberikan perlindungan terhadap akses tidak sah dari sumber yang berbeda, memastikan aplikasi tetap aman dan terkontrol.
 
-% Contoh penggunaan referensi dari gambar yang diinputkan
-Pada \emph{blueprint} yang tertera di Gambar \ref{fig:Blueprint}. \lipsum[12]
+\section{Saran}
 
-\section{Bahan dan peralatan yang digunakan}
+Sebagai pengembangan lebih lanjut, ada beberapa saran yang dapat dipertimbangkan untuk meningkatkan kualitas dan fungsionalitas sistem, antara lain:
 
-\lipsum[13]
+\begin{itemize}
+    \item Pengembangan aplikasi \textbf{Praktika App} dapat diperluas untuk mencakup berbagai komponen selain rangkaian digital, sehingga dapat mencakup berbagai aspek yang lebih luas dalam dunia pendidikan dan teknologi.
+    \item Melakukan \emph{deployment} aplikasi di lingkungan \emph{production} yang saat ini belum dilakukan, agar aplikasi dapat digunakan oleh pengguna secara lebih luas dan memberikan feedback yang lebih komprehensif terkait performa dan kestabilan aplikasi di dunia nyata.
+    \item Menambahkan fitur baru yang dapat memperkaya pengalaman pengguna, seperti analisis data penggunan aplikasi atau integrasi dengan layanan pihak ketiga untuk meningkatkan fungsionalitas sistem.
+\end{itemize}

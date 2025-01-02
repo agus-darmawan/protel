@@ -111,16 +111,16 @@
   \newcommand\covercontents{sampul/konten-id.tex}
   \input{sampul/sampul-luar.tex}
 
-  % Lembar pengesahan
-  \input{lainnya/lembar-pengesahan.tex}
-  \cleardoublepage
+  % % Lembar pengesahan
+  % \input{lainnya/lembar-pengesahan.tex}
+  % \cleardoublepage
 
   % Abstrak
   \input{lainnya/abstrak.tex}
   \cleardoublepage
 
-  \input{lainnya/abstrak-en.tex}
-  \cleardoublepage
+  % \input{lainnya/abstrak-en.tex}
+  % \cleardoublepage
 
   \begin{spacing}{1.5}
     % Daftar isi
@@ -129,17 +129,17 @@
     \tableofcontents
     \cleardoublepage
 
-    % Daftar gambar
-    \renewcommand*\listfigurename{DAFTAR GAMBAR}
-    \addcontentsline{toc}{chapter}{\listfigurename}
-    \listoffigures
-    \cleardoublepage
+    % % Daftar gambar
+    % \renewcommand*\listfigurename{DAFTAR GAMBAR}
+    % \addcontentsline{toc}{chapter}{\listfigurename}
+    % \listoffigures
+    % \cleardoublepage
 
-    % Daftar tabel
-    \renewcommand*\listtablename{DAFTAR TABEL}
-    \addcontentsline{toc}{chapter}{\listtablename}
-    \listoftables
-    \cleardoublepage
+    % % Daftar tabel
+    % \renewcommand*\listtablename{DAFTAR TABEL}
+    % \addcontentsline{toc}{chapter}{\listtablename}
+    % \listoftables
+    % \cleardoublepage
   \end{spacing}
 
   % Nomor halaman isi dimulai dari sini
@@ -157,23 +157,23 @@
   \input{konten/3-metodologi.tex}
   \cleardoublepage
 
-  % Konten lainnya
-  \input{konten/4-lainnya.tex}
-  \cleardoublepage
+  % % Konten lainnya
+  % \input{konten/4-lainnya.tex}
+  % \cleardoublepage
 
-  \input{konten/5-jadwal-penelitian.tex}
-  \cleardoublepage
+  % \input{konten/5-jadwal-penelitian.tex}
+  % \cleardoublepage
 
-  % Daftar pustaka
-  \chapter*{DAFTAR PUSTAKA}
-  \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
-  \renewcommand\refname{}
-  \vspace{2ex}
-  \renewcommand{\bibname}{}
-  \begingroup
-    \def\chapter*#1{}
-    \printbibliography
-  \endgroup
+  % % Daftar pustaka
+  % \chapter*{DAFTAR PUSTAKA}
+  % \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+  % \renewcommand\refname{}
+  % \vspace{2ex}
+  % \renewcommand{\bibname}{}
+  % \begingroup
+  %   \def\chapter*#1{}
+  %   \printbibliography
+  % \endgroup
 
 
 \end{document}
