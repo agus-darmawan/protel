@@ -1,0 +1,9 @@
+# latex auxiliary file
+main*.*
+!main.tex
+
+# ignore dotfiles
+.*
+!.git*
+
+indent.log
